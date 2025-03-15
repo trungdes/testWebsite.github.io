@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img {
+                width: 100%;
+                position: relative;
+                top: -15px;
+                border-radius: 10px;
+                left: -2px;
+            }
+            form {
+                background: white;
+                padding: 20px;
+                max-width: 200px;
+                text-align: center;
+                border-radius: 20px;                
+                height: 250px;
+/*                position: relative;*/
+/*                top: 100px;*/
+/*                left: 100px;*/
+                transition: all 0.3s ease-in-out;    
+                
+            }
+            form:hover {
+                background-color: #ffe6e6;
+                transform: translateY(-10px); 
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+                
+            }
+            .form-container {
+                display: flex;
+                justify-content: center; /* Căn giữa các form */
+                gap: 50px; /* Khoảng cách giữa các form */
+                margin-top: 100px; 
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body class='img'>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html" id="exit">Exit</a></li>
+        </ul>
+        
+        <div>
+            <div class="form-container">
+                <form>
+                    <img src="HelloKittyBag.jpg">
+                    <p>Hello Kitty Bag</p>
+                </form>  
+                <form>
+                    <img src="shoe.png">
+                    <p>Nike Shoe</p>
+                </form>
+                <form>
+                    <img src="maacbook.webp">
+                    <p>MacBook Air</p>
+                </form>
+                <form>
+                    <img src="s24u.webp">
+                    <p>SamSung s24 ultra</p>
+                </form>
+            </div>           
+        </div>
+    </body>
+</html>
